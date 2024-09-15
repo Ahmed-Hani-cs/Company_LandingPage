@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+      @apply mx-auto px-[30px];
+    }
+    .ele-center {
+      @apply flex justify-center items-center;
+    }
+    .btn-main-sky {
+      @apply bg-[#42b0d1]  rounded-3xl cursor-pointer font-bold text-sm text-[#eee] hover:text-white hover:bg-[#8cdae4] transition-all duration-100;
+    }
+  }
+  
+
+body {
+    background-color: #181e2a;
+    height: 1500px;
+}
